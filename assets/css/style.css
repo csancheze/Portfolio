@@ -1,0 +1,114 @@
+/*General*/
+
+:root {
+    --Background: #212529;
+    --MainColor: #9B9D9E;
+    --SeconColor: rgb(83, 125, 153);
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--MainColor);
+}
+
+body {
+    background: var(--Background);
+    color: var(--MainColor);
+}
+
+/*Header*/
+
+
+@media (min-width: 770px) {
+.navbar_style {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header nav div ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+}
+}
+
+/*Main and sections*/
+
+
+
+
+
+/*About me*/
+
+#my_photo {
+    width:100px;
+    height: 110px;
+    border-radius: 15px;
+    align-self: center;
+    margin: 5px
+}
+
+#my_card {
+    display: flex;
+    flex-direction: column;
+    max-height: 50%;
+    
+    
+}
+@media (min-width: 770px) {
+    #my_card {
+        flex-direction: row;
+        max-width: 75%;
+    }
+
+#my_bio {
+    text-align: justify;
+}
+
+}
+/*My Work*/ 
+
+.my_cards a img {
+    max-height: 280px;
+    background-color: #212529;
+
+}
+
+@media (min-width: 770px) {
+
+    .my_cards{
+        min-height: 350px;
+        max-height: 350px;
+        
+    }
+
+    
+}
+
+.my_cards a::before {
+    position:absolute;
+    display: block;
+    z-index: 1;
+    content: '';
+    background: rgb(66, 66, 95);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.my_cards:hover a::before {
+    opacity:0;
+}
+
+
+/*Footer*/
+
