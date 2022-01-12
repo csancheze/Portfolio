@@ -9,6 +9,6 @@ After that, it was necessary to make adjustments to be accesible from different 
 
 ![Screenshot of the webpage showing it working as expected](./assets/img/screenshot.png)
 
- [Final Product:Github repository](https://github.com/csancheze/Homework-week3)
+ [Final Product:Github repository](https://github.com/csancheze/Portfolio/)
 
- [Final Product:Portfolio](https://csancheze.github.io/Homework-week3/)
+ [Final Product:Portfolio](https://csancheze.github.io/Portfolio/)
