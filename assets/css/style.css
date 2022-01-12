@@ -46,11 +46,16 @@ header nav div ul {
 }
 }
 
+.nav-link {
+    font-size: 20px;
+}
+
 /*Main and sections*/
 
 h3 {
     border-bottom : var(--MainColor) solid 1px;
     width: fit-content;
+    margin: 50px 0px;
 }
 
 
