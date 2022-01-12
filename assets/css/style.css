@@ -90,6 +90,10 @@ h3 {
 }
 /*My Work*/ 
 
+figure div {
+    z-index: 1;
+}
+
 .my_cards a img {
     max-height: 280px;
     background-color: #212529;
