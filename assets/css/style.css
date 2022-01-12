@@ -22,8 +22,15 @@ body {
     color: var(--MainColor);
 }
 
+
+
 /*Header*/
 
+header {
+    border-bottom : var(--MainColor) solid 1px;
+    margin: 0px 15px 20px 15px;
+    
+}
 
 @media (min-width: 770px) {
 .navbar_style {
@@ -41,7 +48,10 @@ header nav div ul {
 
 /*Main and sections*/
 
-
+h3 {
+    border-bottom : var(--MainColor) solid 1px;
+    width: fit-content;
+}
 
 
 
@@ -112,3 +122,6 @@ header nav div ul {
 
 /*Footer*/
 
+label {
+    color:white;
+}
