@@ -21,10 +21,15 @@ A google font was added at the end along with some style corrections for it to l
 
 Tecnologies used:
 -HTML.
+
 -CSS.
+
 -Bootstrap.
+
 -Google Fonts.
--Font Awesome
+
+-Font Awesome.
+
 
 
 ![Screenshot of the webpage showing it working as expected](./assets/img/screenshot.png)
