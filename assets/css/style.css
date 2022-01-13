@@ -3,7 +3,7 @@
 :root {
     --Background: #212529;
     --MainColor: #9B9D9E;
-    --SeconColor: rgb(83, 125, 153);
+    --SeconColor: #6C757D;
 }
 
 * {
@@ -102,7 +102,7 @@ figure div {
 .img-link img {
     min-height: 270px;
     max-height: 270px;
-    background-color: #212529;
+    background-color: var(--Background);
 
 }
 
@@ -122,8 +122,8 @@ figure div {
     display: block;
     z-index: 1;
     content: '';
-    background: rgb(66, 66, 95);
-    opacity: 0.5;
+    background: var(--SeconColor);
+    opacity: 0.3;
     width: 100%;
     height: 100%;
     max-width: 100%;
