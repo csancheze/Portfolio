@@ -7,7 +7,6 @@ Contact me cesanchezesc@gmail.com
 
 This Portfolio is a webpage to visualize the work I have been doing so far.
 
-
 The task was to build a Webpage to include a portfolio of my work from zero. It specially had to be adequately formatted to be accesible. 
 
 In order to achieve this the HTML structure was built to resemble the example.
@@ -23,6 +22,7 @@ After must of the style was done, the newer projects were added. Some of the HTM
 A google font was added at the end along with some style corrections for it to look correctly.
 
 Tecnologies used:
+
 -HTML.
 
 -CSS.
